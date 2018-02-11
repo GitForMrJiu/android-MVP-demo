@@ -59,16 +59,16 @@
         android:textColor="@color/white"
         android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/tv_mvp_blog"
-        style="@style/TextStyle.Title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:autoLink="web"
-        android:padding="10dp"
-        android:text="@string/link_mvp_blog"
-        android:textColor="@color/white" />
+    <!--<TextView-->
+        <!--android:id="@+id/tv_mvp_blog"-->
+        <!--style="@style/TextStyle.Title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:autoLink="web"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="@string/link_mvp_blog"-->
+        <!--android:textColor="@color/white" />-->
 
     <TextView
         android:id="@+id/tv_mvp_repo"
@@ -80,23 +80,23 @@
         android:text="@string/link_mvp_repo"
         android:textColor="@color/white" />
 
-    <TextView
-        android:id="@+id/tv_mindorks_blog"
-        style="@style/TextStyle.Title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:autoLink="web"
-        android:padding="10dp"
-        android:text="@string/link_mindorks_blog"
-        android:textColor="@color/white" />
+    <!--<TextView-->
+        <!--android:id="@+id/tv_mindorks_blog"-->
+        <!--style="@style/TextStyle.Title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:autoLink="web"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="@string/link_mindorks_blog"-->
+        <!--android:textColor="@color/white" />-->
 
-    <TextView
-        android:id="@+id/tv_mindorks_repo"
-        style="@style/TextStyle.Title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:autoLink="web"
-        android:padding="10dp"
-        android:text="@string/link_mindorks_repo"
-        android:textColor="@color/white" />
+    <!--<TextView-->
+        <!--android:id="@+id/tv_mindorks_repo"-->
+        <!--style="@style/TextStyle.Title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:autoLink="web"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="@string/link_mindorks_repo"-->
+        <!--android:textColor="@color/white" />-->
 </LinearLayout>
