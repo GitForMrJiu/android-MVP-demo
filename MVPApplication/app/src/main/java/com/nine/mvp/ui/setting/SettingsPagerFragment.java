@@ -2,20 +2,16 @@ package com.nine.mvp.ui.setting;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.nine.mvp.R;
 import com.nine.mvp.base.BaseTabsTabLayoutFragment;
 import com.nine.mvp.base.SimpleActivity;
 import com.nine.mvp.bean.TabItem;
 import com.nine.mvplibrary.widget.CustomTablayout;
 
 import java.util.ArrayList;
-
-import butterknife.BindView;
 
 /**
  * Created by Just For Mr.Jiu on 18/2/2.
@@ -27,8 +23,7 @@ public class SettingsPagerFragment extends BaseTabsTabLayoutFragment<TabItem> {
 //    public int inflateContentView() {
 //        return R.layout.ui_settings_tabs;
 //    }
-    @BindView(R.id.toolbar)
-    Toolbar toolbar;
+
 
     public static SettingsPagerFragment newInstance() {
         
@@ -57,10 +52,9 @@ public class SettingsPagerFragment extends BaseTabsTabLayoutFragment<TabItem> {
         super.onActivityCreated(savedInstanceState);
 
         SimpleActivity activity = (SimpleActivity) getActivity();
-        activity.setToolBar(toolbar,"设置");
         activity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         activity.getSupportActionBar().setDisplayShowHomeEnabled(false);
-//        activity.getSupportActionBar().setTitle();
+        activity.getSupportActionBar().setTitle("设置");
     }
 
     @Override

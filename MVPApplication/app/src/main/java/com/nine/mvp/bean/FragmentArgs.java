@@ -1,11 +1,11 @@
 package com.nine.mvp.bean;
 
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.text.TextUtils;
 
 import org.parceler.Parcel;
 
-import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -16,25 +16,25 @@ import java.util.Set;
 @Parcel
 public class FragmentArgs {
 
-     Map<String, Serializable> values = new HashMap<String, Serializable>();
+     Map<String, Parcelable> values = new HashMap<String, Parcelable>();
 
-    public FragmentArgs add(String key, Serializable value) {
+    public FragmentArgs add(String key, Parcelable value) {
         if (!TextUtils.isEmpty(key) && value != null)
             values.put(key, value);
         return this;
     }
 
-    public Serializable get(String key) {
+    public Parcelable get(String key) {
         return values.get(key);
     }
 
     public static void setToBundle(Bundle bundle, FragmentArgs args) {
         Set<String> keys = args.values.keySet();
         for (String key : keys) {
-            Serializable value = args.get(key);
+            Parcelable value = args.get(key);
             if (value == null)
                 continue;
-            bundle.putSerializable(key, value);
+            bundle.putParcelable(key, value);
         }
     }
 
@@ -43,7 +43,7 @@ public class FragmentArgs {
         for (String s : bundle.keySet()) {
             Object o = bundle.get(s);
             if (o == null) continue;
-            args.add(s, (Serializable) o);
+            args.add(s, (Parcelable) o);
         }
         return args;
     }

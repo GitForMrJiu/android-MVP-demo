@@ -4,9 +4,12 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.nine.mvp.R;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
@@ -18,11 +21,16 @@ import me.yokeyword.fragmentation_swipeback.SwipeBackFragment;
 
 public abstract class SimpleFragment extends SwipeBackFragment {
 
+    Toolbar toolbar;
     protected View mView;
     protected Activity mActivity;
     protected Context mContext;
     private Unbinder mUnBinder;
     protected boolean isInited = false;
+
+    public Toolbar getToolbar() {
+        return toolbar;
+    }
 
     @Override
     public void onAttach(Context context) {
@@ -35,6 +43,10 @@ public abstract class SimpleFragment extends SwipeBackFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         mView = inflater.inflate(getLayoutId(), null);
+        toolbar = mView.findViewById(R.id.toolbar);
+        if (toolbar != null) {
+            ((SimpleActivity) mActivity).setToolBar(toolbar, "");
+        }
         return mView;
     }
 
@@ -58,5 +70,6 @@ public abstract class SimpleFragment extends SwipeBackFragment {
     }
 
     protected abstract int getLayoutId();
+
     protected abstract void initEventAndData();
 }

@@ -122,13 +122,13 @@ public class MainActivity extends SimpleActivity implements NavigationView.OnNav
             pop();
         } else {
             if (System.currentTimeMillis() - TOUCH_TIME < WAIT_TIME) {
-                finish();
+                super.onBackPressedSupport();
             } else {
                 TOUCH_TIME = System.currentTimeMillis();
                 Toast.makeText(this, R.string.press_again_exit, Toast.LENGTH_SHORT).show();
             }
         }
-        super.onBackPressedSupport();
+
     }
 
     @Override
