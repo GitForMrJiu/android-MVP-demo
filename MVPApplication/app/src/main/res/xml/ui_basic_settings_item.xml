@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/category_color_theme_item">
+
+        <Preference
+            android:key="pTheme"
+            android:title="@string/settings_md_colors" />
+
+        <!--<Preference android:key="pThemeCustom" android:title="@string/settings_custom_colors" />-->
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory android:title="@string/category_read">-->
+        <!--<com.linkstart.intelligentfire.widget.DHListPreference-->
+            <!--android:defaultValue="4"-->
+            <!--android:dialogTitle="@string/settings_text_size"-->
+            <!--android:entries="@array/txtSizeNum"-->
+            <!--android:entryValues="@array/prefValues"-->
+            <!--android:key="pTextSize"-->
+            <!--android:title="@string/settings_text_size" />-->
+
+
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="true"-->
+            <!--android:key="pShowRemark"-->
+            <!--android:title="@string/settings_remark" />-->
+
+
+
+    <!--</PreferenceCategory>-->
+
+    <PreferenceCategory android:title="@string/category_operation">
+        <!--<com.linkstart.intelligentfire.widget.DHListPreference-->
+            <!--android:defaultValue="0"-->
+            <!--android:dialogTitle="@string/settings_dt_swipeback_edgemode"-->
+            <!--android:entries="@array/swipebackEdgeMode"-->
+            <!--android:entryValues="@array/prefValues"-->
+            <!--android:key="pSwipebackEdgeMode"-->
+            <!--android:title="@string/settings_swipeback_edgemode" />-->
+
+
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="true"-->
+            <!--android:key="pAutoRefresh"-->
+            <!--android:summary="@string/settings_list_auto_update_summary"-->
+            <!--android:title="@string/settings_list_auto_update" />-->
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_ad_habit">
+        <!--<CheckBoxPreference-->
+        <!--android:defaultValue="false" android:key="pDrawlayoutFull" android:title="@string/settings_drawlayout_full"/>-->
+
+
+        <!--<CheckBoxPreference android:key="pTabBarAutoHide" android:title="@string/settings_tabbar_auto_hide" android:defaultValue="false"-->
+        <!--android:summary="@string/settings_tabbar_auto_hide_summary" />-->
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pInnerBrowser"
+            android:title="@string/settings_inner_browser" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pAppResident"
+            android:title="@string/settings_app_resident" />
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory android:title="@string/title_rom_adaptive">-->
+
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="false"-->
+            <!--android:key="pRotatePic"-->
+            <!--android:summary="@string/settings_pic_rotate_summary"-->
+            <!--android:title="@string/settings_pic_rotate" />-->
+    <!--</PreferenceCategory>-->
+
+    <PreferenceCategory android:title="@string/category_other">
+        <Preference
+            android:key="pPicSavePath"
+            android:summary="/sdcard/"
+            android:title="@string/settings_pic_path" />
+
+        <Preference
+            android:key="pClearCache"
+            android:title="@string/settings_clear_cache" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

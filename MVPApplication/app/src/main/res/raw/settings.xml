@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-settings>
+
+    <setting-array
+        index="0"
+        type="root_path">
+        <des>应用程序相对sdcard的相对路径目录，所有的文件都存储在这个文件夹中</des>
+        <setting>
+            <value>android</value>
+        </setting>
+    </setting-array>
+
+    <setting-array
+        index="0"
+        type="com_m_common_json">
+        <des>业务数据sdcard缓存路径，相对root_path路径</des>
+        <setting>
+            <value>app_data</value>
+        </setting>
+    </setting-array>
+
+    <setting-array
+        index="0"
+        type="com_m_common_image">
+        <des>图片数据sdcard缓存路径，相对root_path路径</des>
+        <setting>
+            <value>app_image</value>
+        </setting>
+    </setting-array>
+
+    <setting-array
+        index="0"
+        type="draft">
+        <des>草稿图片，相对root_path路径</des>
+        <setting>
+            <value>draft</value>
+        </setting>
+    </setting-array>
+
+    <setting type="saveImage">
+        <des>我收藏的图片</des>
+        <value>myPics</value>
+    </setting>
+
+    <setting type="crashlogenable">
+        <des>错误日志记录</des>
+        <value>true</value>
+    </setting>
+
+    <setting type="crashlog">
+        <des>错误日志目录</des>
+        <value>crashlog</value>
+    </setting>
+
+    <setting type="debug">
+        <des>APP是否是DEBUG模式</des>
+        <value>true</value>
+    </setting>
+
+    <setting type="cache_enable">
+        <des>缓存开关，在这里设置无效，需要在action.xml中覆盖这个设置</des>
+        <value>true</value>
+    </setting>
+    <setting type="itemchange">
+        <des>应用界面按钮变换开发</des>
+        <value>false</value>
+    </setting>
+
+    <setting type="image_suffix">
+        <des>图片缓存的后缀</des>
+        <value>auto</value>
+    </setting>
+
+
+    <setting type="activity_helper">
+        <des>Activity帮助类</des>
+        <value>nine.basislibrary.base.BaseActivityHelper</value>
+    </setting>
+</app-settings>

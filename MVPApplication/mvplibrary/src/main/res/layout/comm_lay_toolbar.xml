@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bilibili.magicasakura.widgets.TintToolbar android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    tools:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    tools:subtitleTextAppearance="@style/subtitle"
+    tools:theme="@style/AppTheme.AppBarOverlay"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+
+    </com.bilibili.magicasakura.widgets.TintToolbar>

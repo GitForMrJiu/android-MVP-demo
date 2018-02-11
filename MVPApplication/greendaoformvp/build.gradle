@@ -1,0 +1,19 @@
+    apply plugin: 'application'
+    apply plugin: 'java'
+
+
+    mainClassName = "com.nine.greendao.MyDaoGenerator"
+
+//    sourceSets {
+//        main {
+//            java {
+//                srcDir 'src'
+//            }
+//        }
+//    }
+    dependencies {
+        compile fileTree(dir: 'libs', include: ['*.jar'])
+//Green Dao
+        compile 'org.greenrobot:greendao-generator:3.2.2'
+//        compile 'org.freemarker:freemarker:2.3.23'
+    }

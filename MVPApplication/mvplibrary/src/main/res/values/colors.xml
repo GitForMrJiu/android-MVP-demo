@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="comm_white">#FFffffff</color>
+    <color name="comm_black">#FF000000</color>
+    <color name="comm_gray">#FF888888</color>
+    <color name="comm_blue">#FF52A0DB</color>
+    <color name="comm_blue_bg">#7752A0DB</color>
+    <color name="comm_red">#FFFF0000</color>
+    <color name="comm_transparent">#00000000</color>
+
+    <!--适配Materail Design后添加的颜色-->
+    <color name="text_100">#ff000000</color>
+    <color name="text_87">#dd000000</color>
+    <color name="text_80">#cc000000</color>
+    <color name="text_60">#99000000</color>
+    <color name="text_54">#69000000</color>
+    <!-- 处理隐患 -->
+    <color name="state_in_handling">#ff7500</color>
+    <color name="state_waiting">#ff461f</color>
+    <color name="state_ending">#009944</color>
+
+    <color name="text_100_inverse">#ffffffff</color>
+    <color name="text_87_inverse">#ddffffff</color>
+    <color name="text_80_inverse">#ccffffff</color>
+    <color name="text_60_inverse">#99ffffff</color>
+    <color name="text_54_inverse">#89ffffff</color>
+
+    <color name="color_green_disable">#a2efe0</color>
+    <color name="color_green_00d3a9">#ff00D3A9</color>
+    <color name="split_line_grey_color_d9d9d9">#D9D9D9</color>
+    <color name="color_black_ff333333">#ff333333</color>
+    <color name="color_grey_999999">#999999</color>
+    <color name="color_black_333333">#333333</color>
+    <color name="color_split_line_d9d9d9">#d9d9d9</color>
+    <color name="black2">#ffeeeeee</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="color_a_default">#88F06292</color>
+    <color name="color_b_default">#00BA68C8</color>
+
+
+    <!-- button -->
+    <color name="btn_ghost_blue_border_normal">@color/qmui_config_color_blue</color>
+    <color name="btn_ghost_blue_border_pressed">#801B88EE</color>
+    <color name="btn_ghost_blue_border_disabled">#801B88EE</color>
+
+    <color name="btn_ghost_blue_text_normal">@color/qmui_config_color_blue</color>
+    <color name="btn_ghost_blue_text_pressed">#801B88EE</color>
+    <color name="btn_ghost_blue_text_disabled">#801B88EE</color>
+
+    <color name="btn_filled_blue_bg_normal">#416f96</color>
+    <color name="btn_filled_blue_bg_pressed">#243f55</color>
+    <color name="btn_filled_blue_bg_disabled">#80416f96</color>
+
+
+    <color name="qmui_config_color_blue">#1B88EE</color>
+
+    <color name="qmui_config_color_gray_5">#858C96</color>
+    <color name="qmui_config_color_75_pure_black">#C0000000</color>
+
+</resources>

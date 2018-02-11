@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MVP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--Login-->
+    <string name="login_dummy">Login Dummy</string>
+    <string name="login">登录</string>
+    <string name="email">账户</string>
+    <string name="password">密码</string>
+    <string name="press_again_exit">再按一次退出</string>
+
+    <!--Drawer Menus-->
+    <string name="about">关于</string>
+    <string name="logout">注销</string>
+    <string name="feed">广告</string>
+</resources>

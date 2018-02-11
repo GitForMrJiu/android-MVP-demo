@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">MVP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--Login-->
+    <string name="login_dummy">Login Dummy</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="cancel">取消</string>
+    <string name="press_again_exit">Press again to exit</string>
+
+    <!--Drawer Menus-->
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="feed">My Feed</string>
+
+    <!-- 程序设置 -->
+    <string name="title_settings">设置</string>
+    <string name="settings_account_sumary">%d个授权账号</string>
+    <string name="category_def">常规设置</string>
+    <string name="settings_basic">基本设置</string>
+    <string name="settings_feedback">操作反馈</string>
+    <string name="settings_diy">主题设置</string>
+    <string name="settings_habit">偏好设置</string>
+    <string name="settings_notify">通知中心</string>
+    <string name="settings_flow">流量控制</string>
+    <string name="settings_offline">离线设置</string>
+    <string name="category_advanced">高级设置</string>
+    <string name="settings_more_advanced">更多高级设置</string>
+    <string name="settings_manage_account">账号管理</string>
+    <string name="settings_publish_delay">内容延迟发布</string>
+    <string name="settings_publish_delay_summary">延迟5秒发布微博、评论，可点击撤销</string>
+    <string name="settings_pic_rotate">旋转照片</string>
+    <string name="settings_pic_rotate_summary">拍摄照片分享时将照片旋转90度</string>
+    <!--<string name="settings_share_aisen">推荐给好友</string>-->
+    <!--<string name="settings_grade">给我好评</string>-->
+    <string name="settings_inner_browser">使用内置浏览器</string>
+    <string name="settings_app_resident">应用常驻内存</string>
+
+    <!-- 基本设置 -->
+    <!--<string name="settings_donate">捐赠</string>-->
+    <!--<string name="settings_donate_dialog_title">捐赠开发者</string>-->
+    <!--<string name="settings_donate_dialog_message">如果觉得Aisen或者源码对你有用，支付宝账号binglanhappy@163.com已复制到粘贴板，捐赠一点碎银子给我喝杯咖啡吧，感谢你的支持！</string>-->
+    <string name="settings_donate_yes">打开支付宝</string>
+    <string name="settings_basic_history_remind">%d条历史数据</string>
+    <string name="settings_dir_hint">文件夹名称</string>
+    <string name="settings_modify_picpath_title">修改图片保存路径</string>
+    <string name="settings_clear">清理</string>
+    <string name="settings_clear_history_remind">将删除掉所有的@历史记录？</string>
+    <string name="category_color_theme_item">主题</string>
+    <string name="category_read">阅读</string>
+    <string name="settings_text_size">字体大小</string>
+    <string name="settings_md_colors">主题颜色</string>
+    <string name="settings_custom_colors">自定义</string>
+    <string name="settings_remark">显示备注名</string>
+    <!--<string name="settings_load_origpic">默认加载原图</string>-->
+    <!--<string name="settings_load_origpic_summary">建议牛逼的WIFI环境开启</string>-->
+    <string name="category_operation">操作反馈</string>
+    <string name="settings_list_auto_update">列表自动刷新</string>
+    <string name="settings_list_auto_update_summary">缓存数据有效期失效后</string>
+    <string name="settings_swipeback_edgemode">手势返回</string>
+    <string name="settings_dt_swipeback_edgemode">设置手势方向</string>
+    <string name="settings_vibrate">震动反馈</string>
+    <string name="settings_vibrate_summary">内容发送成功后震动反馈</string>
+    <string name="category_other">其他</string>
+    <string name="settings_pic_path">图片保存路径</string>
+    <!--<string name="settings_mention_history">清理@好友历史记录</string>-->
+    <!--<string name="settings_fab_type">Fab按钮功能</string>-->
+    <!--<string name="settings_fab_type_summary">点击切换微博分组，长按可刷新列表</string>-->
+    <!--<string name="settings_fab_position">Fab按钮位置</string>-->
+
+    <!-- 高级设置 -->
+    <string name="title_advanced">高级设置</string>
+    <string name="title_ad_common">通用设置</string>
+    <string name="title_ad_habit">操作习惯</string>
+    <string name="title_rom_adaptive">系统适配</string>
+
+    <!-- 流量控制设置 -->
+    <string name="title_flowsetting">流量控制</string>
+    <!--<string name="settings_pic_upload_auto">WIFI时原图、移动网络时小于700Kb上传</string>-->
+    <!--<string name="settings_pic_upload_gif">gif原图上传</string>-->
+    <string name="settings_clear_cache">清理缓存</string>
+    <!--<string name="settings_dt_pic_upload">图片上传质量</string>-->
+    <!--<string name="settings_photo">显示高清头像</string>-->
+    <!--<string name="settings_midpic_hint">显示高清图已下载提示</string>-->
+    <!--<string name="settings_pic_none">开启列表无图模式</string>-->
+    <!--<string name="settings_pic_mode">图片加载模式</string>-->
+    <!--<string name="settings_dt_status_count">微博每次加载数量</string>-->
+    <!--<string name="settings_dt_cmt_count">评论每次加载数量</string>-->
+    <string name="settings_cache_clear">清理中</string>
+
+    <!-- 其他设置 -->
+    <string name="title_about">关于</string>
+    <string name="title_help">帮助</string>
+    <!--<string name="title_opensource">开源协议</string>-->
+    <string name="settings_about_feedback">意见反馈</string>
+    <string name="settings_about_feedback_summary">告诉我您的想法和建议</string>
+    <string name="settings_about">关于</string>
+    <!--<string name="settings_opensource">开源协议</string>-->
+    <string name="category_developer">开发者选项</string>
+    <!--<string name="settings_about_debug">Debug模式</string>-->
+    <!--<string name="settings_about_debug_summary">设置Debug模式后，所有相关设置选项都为测试缺省设置</string>-->
+    <string name="settings_about_screen_rotate">屏幕旋转</string>
+    <string name="settings_cache_disable">禁用缓存</string>
+    <string name="settings_network_delay">网络请求延迟10s</string>
+    <string name="settings_cache_disable_summary">禁用请求缓存</string>
+    <string name="settings_dt_cache_validdate">设置缓存有效时间</string>
+    <string name="settings_cache_validdate">缓存数据有效时间</string>
+    <!--<string name="settings_crash_log">Crash日志上传</string>-->
+    <!--<string name="settings_crash_log_summary">Wifi时自动上传程序崩溃日志，建议开启，帮助我们定位BUG优化程序</string>-->
+    <string name="settings_version_update">检查更新</string>
+
+    <!-- 版本信息设置 -->
+    <string name="settings_version_detail">版本信息</string>
+    <string name="settings_version_p">版本信息</string>
+    <string name="settings_version_summary" formatted="false">当前版本: %s, 最新版本: %s</string>
+    <string name="settings_error_market">无法打开应用市场</string>
+    <string name="settings_current_version">当前版本: %s</string>
+
+    <string-array name="swipebackEdgeMode">
+        <item>向左</item>
+        <item>向右</item>
+        <item>全部</item>
+        <item>禁止</item>
+    </string-array>
+
+    <string-array name="txtSizeNum">
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="prefValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="pCacheValidity">
+        <item>30秒</item>
+        <item>20分钟</item>
+        <item>12小时</item>
+        <item>24小时</item>
+        <item>永久</item>
+    </string-array>
+
+    <string-array name="mdColorNames">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Deep purple</item>
+        <item>Indigo</item>
+        <item>Blue</item>
+        <item>Light blue</item>
+        <item>Cyan</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Light green</item>
+        <item>Lime</item>
+        <item>Yellow</item>
+        <item>Amber</item>
+        <item>Orange</item>
+        <item>Deep orange</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>Blue grey</item>
+    </string-array>
+
+
+    <!--about fragment-->
+    <string name="project_info">This sample app implements MVP Demo using Dagger2, GreenDao, RxJava, butterknife,fragmentation,BaseRecyclerViewAdapterHelper,calligraphy and PlaceholderView</string>
+    <string name="link_mvp_repo"> https://github.com/MindorksOpenSource/android-mvp-architecture</string>
+
+</resources>
