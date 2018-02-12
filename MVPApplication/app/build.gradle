@@ -43,5 +43,4 @@ dependencies {
 
     compile rootProject.ext.dependencies["parceler"]
     annotationProcessor rootProject.ext.dependencies["parceler-annotation"]
-
 }

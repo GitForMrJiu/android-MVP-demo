@@ -187,7 +187,13 @@
         <item>Blue grey</item>
     </string-array>
 
-
+    <string-array name="default_preview">
+        <item>#df5a55</item>
+        <item>#f9bb72</item>
+        <item>#76afcf</item>
+        <item>#dd6495</item>
+        <item>#72d3b4</item>
+    </string-array>
     <!--about fragment-->
     <string name="project_info">This sample app implements MVP Demo using Dagger2, GreenDao, RxJava, butterknife,fragmentation,BaseRecyclerViewAdapterHelper,calligraphy and PlaceholderView</string>
     <string name="link_mvp_repo"> https://github.com/GitForMrJiu/android-MVP-demo</string>

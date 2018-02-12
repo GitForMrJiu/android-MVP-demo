@@ -34,4 +34,6 @@
     <color name="shadow">#d0d8dc</color>
     <color name="transparent">#00000000</color>
     <color name="translucent_white">#88ffffff</color>
+
+    <color name="tab_unselect">#c9c9c9</color>
 </resources>

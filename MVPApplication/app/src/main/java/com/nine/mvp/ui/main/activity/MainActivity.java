@@ -18,6 +18,7 @@ import com.nine.mvp.base.SimpleFragment;
 import com.nine.mvp.ui.about.AboutFragment;
 import com.nine.mvp.ui.main.fragment.MainFragment;
 import com.nine.mvp.ui.setting.SettingsPagerFragment;
+import com.nine.mvp.ui.tabhome.TabHomeFragment;
 
 import butterknife.BindView;
 
@@ -101,9 +102,10 @@ public class MainActivity extends SimpleActivity implements NavigationView.OnNav
                 if (item.getItemId() == R.id.setting) {
                     CommonActivity.launch(MainActivity.this, SettingsPagerFragment.class, null);
 
-                }else if (item.getItemId() == R.id.about)
-                {
+                } else if (item.getItemId() == R.id.about) {
                     CommonActivity.launch(MainActivity.this, AboutFragment.class, null);
+                } else if (item.getItemId() == R.id.menu_home) {
+                    CommonActivity.launch(MainActivity.this, TabHomeFragment.class, null);
                 }
             }
         }, 250);
