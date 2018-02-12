@@ -6,7 +6,8 @@ import com.nine.mvplibrary.R;
 import com.nine.mvplibrary.setting.AppSettings;
 
 /**
- * Created by thinkformoney on 16/8/18.
+ * Created by Just For Mr.Jiu on 18/2/12.
+ * Email yufan595@gmail.com
  */
 public class ThemeConstants {
 

@@ -8,7 +8,8 @@ import retrofit2.http.POST;
 import retrofit2.http.Query;
 
 /**
- * Created by thinkformoney on 18/1/19.
+ * Created by Just For Mr.Jiu on 18/2/12.
+ * Email yufan595@gmail.com
  */
 
 public interface TestApis {

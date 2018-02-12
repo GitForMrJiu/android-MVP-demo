@@ -9,7 +9,8 @@ import com.nine.mvplibrary.utils.ActivityHelper;
 
 
 /**
- * Created by thinkformoney on 16/8/18.
+ * Created by Just For Mr.Jiu on 18/2/12.
+ * Email yufan595@gmail.com
  */
 public class AppSettings {
     static final int[] countArr = { 20, 50, 100 };

@@ -14,7 +14,8 @@ import org.parceler.Parcels;
 import java.lang.reflect.Method;
 
 /**
- * Created by thinkformoney on 16/8/19.
+ * Created by Just For Mr.Jiu on 18/2/12.
+ * Email yufan595@gmail.com
  */
 public class CommonActivity extends SimpleActivity {
 

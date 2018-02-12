@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MVPApplication.iml" filepath="$PROJECT_DIR$/MVPApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendaoformvp/greendaoformvp.iml" filepath="$PROJECT_DIR$/greendaoformvp/greendaoformvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/magicasakura/magicasakura.iml" filepath="$PROJECT_DIR$/magicasakura/magicasakura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvplibrary/mvplibrary.iml" filepath="$PROJECT_DIR$/mvplibrary/mvplibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/searchbox-library/searchbox-library.iml" filepath="$PROJECT_DIR$/searchbox-library/searchbox-library.iml" />
+    </modules>
+  </component>
+</project>

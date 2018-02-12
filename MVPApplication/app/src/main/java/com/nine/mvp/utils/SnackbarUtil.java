@@ -3,9 +3,6 @@ package com.nine.mvp.utils;
 import android.support.design.widget.Snackbar;
 import android.view.View;
 
-/**
- * Created by codeest on 16/9/3.
- */
 
 public class SnackbarUtil {
 

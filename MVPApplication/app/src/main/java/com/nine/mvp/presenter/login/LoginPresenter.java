@@ -7,7 +7,8 @@ import com.nine.mvp.model.DataManager;
 import javax.inject.Inject;
 
 /**
- * Created by thinkformoney on 18/1/19.
+ * Created by Just For Mr.Jiu on 18/2/12.
+ * Email yufan595@gmail.com
  */
 
 public class LoginPresenter extends RxPresenter<LoginContract.View> implements LoginContract.Presenter{

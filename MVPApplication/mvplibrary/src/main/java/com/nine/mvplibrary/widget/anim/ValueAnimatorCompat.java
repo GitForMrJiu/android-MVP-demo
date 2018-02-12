@@ -3,9 +3,6 @@ package com.nine.mvplibrary.widget.anim;
 import android.support.annotation.NonNull;
 import android.view.animation.Interpolator;
 
-/**
- * Created by didik on 2016/11/17.
- */
 
 public class ValueAnimatorCompat {
     public interface AnimatorUpdateListener {

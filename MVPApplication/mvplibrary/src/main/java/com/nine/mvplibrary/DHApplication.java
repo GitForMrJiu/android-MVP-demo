@@ -16,9 +16,9 @@ import java.util.Random;
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
 /**
- * Created by thinkformoney on 17/8/8.
+ * Created by Just For Mr.Jiu on 18/2/12.
+ * Email yufan595@gmail.com
  */
-
 public class DHApplication extends MultiDexApplication implements ThemeUtils.switchColor {
 
     private static DHApplication appContext;

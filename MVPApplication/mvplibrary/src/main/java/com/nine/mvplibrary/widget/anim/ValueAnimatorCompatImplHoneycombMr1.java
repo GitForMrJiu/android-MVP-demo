@@ -5,9 +5,6 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
 import android.view.animation.Interpolator;
 
-/**
- * Created by didik on 2016/11/17.
- */
 
 public class ValueAnimatorCompatImplHoneycombMr1 extends ValueAnimatorCompat.Impl{
     private final ValueAnimator mValueAnimator;

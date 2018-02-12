@@ -3,9 +3,6 @@ package com.nine.mvplibrary.widget.anim;
 import android.graphics.PorterDuff;
 import android.os.Build;
 
-/**
- * Created by didik on 2016/11/17.
- */
 
 public class ViewUtils {
     public static final ValueAnimatorCompat.Creator DEFAULT_ANIMATOR_CREATOR

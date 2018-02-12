@@ -26,9 +26,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Field;
 
-/**
- * Created by codeest on 2016/8/4.
- */
 public class SystemUtil {
 
     /**

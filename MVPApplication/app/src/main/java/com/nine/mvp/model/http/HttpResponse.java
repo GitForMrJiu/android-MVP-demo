@@ -5,7 +5,8 @@ import android.text.TextUtils;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Created by thinkformoney on 17/10/12.
+ * Created by Just For Mr.Jiu on 18/2/12.
+ * Email yufan595@gmail.com
  */
 
 public class HttpResponse<T> {

@@ -8,9 +8,6 @@ import android.view.animation.Interpolator;
 
 import java.util.ArrayList;
 
-/**
- * Created by didik on 2016/11/17.
- */
 
 public class ValueAnimatorCompatImplGingerbread extends ValueAnimatorCompat.Impl{
     private static final int HANDLER_DELAY = 10;
